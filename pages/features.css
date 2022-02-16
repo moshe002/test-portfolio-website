@@ -1,0 +1,10 @@
+body {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ft-h1 {
+    margin-top: 3rem;
+}

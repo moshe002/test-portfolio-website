@@ -1,0 +1,65 @@
+body {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgb(34,177,179);
+    background: linear-gradient(0deg, rgba(34,177,179,1) 0%, rgb(0, 0, 0)79%);    
+    background-repeat: no-repeat;
+    height: 71vh;
+}
+
+
+@keyframes word{
+    from {
+        opacity: 0%;
+    }
+    to {
+        color: antiquewhite;
+        font-size: 70px;
+        opacity: 100%;
+    }
+}
+
+@keyframes btn {
+    from {
+        opacity: 0%;
+    }
+    to {
+        font-size: 20px;
+        color: black;
+        opacity: 70%;
+    }
+}
+
+h1 {
+    margin-top: 10rem;
+    opacity: 0%;
+    animation-name: word;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+}
+
+
+button {
+    margin-top: 5rem;
+    background-color: cadetblue;
+    height: 50px;
+    width: 250px;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+    opacity: 0%;
+    animation-name: btn;
+    animation-duration: 4s;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+}
+
+button:hover {
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
