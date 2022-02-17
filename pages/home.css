@@ -3,6 +3,7 @@
     text-align: center;
     justify-content: center;
     align-items: center;
+    background-color: beige;
 }
 
 .home-h1 {
@@ -16,14 +17,34 @@
 
 .profile-btn {
     margin-left: -2rem;
-    width: 150px;
+    width: 200px;
     height: 50px;
+    padding-top: 15px;
+    opacity: 30%;
+    transition: 0.5s;
+}
+
+.profile-btn:hover {
+    transition: 1.5s;
+    background-color: lightgray;
+    border-radius: 22px;
+    opacity: 100%;
 }
 
 .features-btn {
     margin-left: 8rem;
-    width: 150px;
+    width: 200px;
     height: 50px;
+    padding-top: 15px;
+    opacity: 30%;
+    transition: 0.5s;
+}
+
+.features-btn:hover {
+    transition: 1.5s;
+    background-color: lightgray;
+    border-radius: 22px;
+    opacity: 100%;
 }
 
 .home-div {

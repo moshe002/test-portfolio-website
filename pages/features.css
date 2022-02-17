@@ -20,23 +20,29 @@ body {
 }
 
 .skill-div {
-    border: 1px solid black;
+    border: none;
     width: 270px;
     margin-right: 10rem;
     font-size: 20px;
+    background-color: lightblue;
+    border-radius: 20px;
 }
 
 .interest-div {
-    border: 1px solid black;
+    border: none;
     width: 270px;
     font-size: 20px;
+    background-color: lightblue;
+    border-radius: 20px;
 }
 
 .knowledge-div {
-    border: 1px solid black;
+    border: none;
     width: 270px;
     margin-left: 10rem;
     font-size: 20px;
+    background-color: lightblue;
+    border-radius: 20px;
 }
 
 p {
@@ -52,16 +58,20 @@ p {
     border: none;
     border-radius: 20px;
     background-color: bisque;
+    transition: 0.5s;
 }
 
 .go-back-btn:hover {
-    width: 150px;
+    width: 110px;
 }
 
 .back-btn {
     text-decoration: none;
-    font-size: 20px;
-    /*content: "fuck go back";
-    when hovered, button extends and shows text
-    */
+    font-size: 21px;
+    opacity: 0%;
+    transition: 0.5s;
+}
+
+.back-btn:hover {
+    opacity: 100%;
 }
