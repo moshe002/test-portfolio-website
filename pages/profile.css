@@ -1,0 +1,100 @@
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+.profile-div {
+    margin-top: 2rem;
+    height: 85vh;
+    width: 50rem;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    overflow-y: auto;
+    border: 1px solid lightgray;
+}
+
+.div-h1 {
+    width: 50rem;
+    height: auto;
+    z-index: 1;
+    position: fixed;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+.div-h1 h1{
+    font-style: italic;
+}
+
+.profile-pic {
+    position: relative;
+    margin: 0 auto;
+    /*border: 1px solid black;*/
+    margin-top: 6.5rem;
+    height: auto;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.profile-pic img { /* this is used to resize the image inside the container */
+    height: auto; /* auto para matic adjust */
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.text-div {
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 500px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    background-color: beige;
+    border-radius: 20px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: lightgrey; 
+    border-radius: 10px;
+  }
+
+.go-back-btn {
+    position: absolute;
+    margin-top: 30rem;
+    margin-right: 11.5in;
+    height: 50px;
+    width: 80px;
+    border: none;
+    border-radius: 20px;
+    background-color: bisque;
+    transition: 0.5s;
+    z-index: 2;
+}
+
+.go-back-btn:hover {
+    width: 110px;
+}
+
+.back-btn { /* text sa button */
+    text-decoration: none;
+    font-size: 21px;
+    opacity: 0%;
+    transition: 0.5s;
+}
+
+.back-btn:hover {
+    opacity: 100%;
+}
