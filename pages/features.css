@@ -3,6 +3,10 @@ body {
     background-color: aliceblue;
 }
 
+p {
+    text-align: center;
+}
+
 .ft-h1 {
     margin-top: 3rem;
     text-align: center;
@@ -20,11 +24,22 @@ body {
     margin-top: 6rem;
 }
 
+.lists p {
+    font-size: 18px;
+}
+
+.lists li {
+    font-size: 15px;
+}
+
+.lists ul {
+    padding-right: 20px;
+}
+
 .skill-div {
     border: none;
     width: auto;
     margin-right: 10rem;
-    font-size: 20px;
     background-color: lightblue;
     border-radius: 20px;
 }
@@ -32,7 +47,6 @@ body {
 .interest-div {
     border: none;
     width: auto;
-    font-size: 20px;
     background-color: lightblue;
     border-radius: 20px;
 }
@@ -41,22 +55,21 @@ body {
     border: none;
     width: auto;
     margin-left: 10rem;
-    font-size: 20px;
     background-color: lightblue;
     border-radius: 20px;
 }
 
-p {
+.lists p {
     text-align: center;
     font-weight: bolder;
 }
 
 .go-back-btn {
-    margin-top: 5rem;
+    margin-top: 3.5rem;
     margin-left: 4rem;
     height: 50px;
     width: 80px;
-    border: none;
+    border: 2px solid black;
     border-radius: 20px;
     background-color: bisque;
     transition: 0.5s;
@@ -75,4 +88,39 @@ p {
 
 .back-btn:hover {
     opacity: 100%;
+}
+
+.bottom-div {
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin-top: 1.5rem;
+    height: auto;
+    background-color: gainsboro;
+}
+
+.bottom-h1 {
+    padding-top: 0.7rem;
+    text-align: center;
+}
+
+.bottom-div p {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    text-align-last: left;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: gray; 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px lightgrey; 
+    border-radius: 10px;
 }
