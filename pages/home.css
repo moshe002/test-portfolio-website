@@ -1,4 +1,6 @@
 .home-body {
+    display: flex;
+    flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     background-color: beige;
@@ -107,6 +109,7 @@
 }
 
 .contacts a:hover {
+    transition: 0.3s;
     color: white;
 }
 
@@ -118,11 +121,21 @@
     border-radius: 20px;
 }
 
+.div-facebook:hover {
+    transition: 0.5s;
+    box-shadow: 1px 0px 10px skyblue;
+}
+
 .div-github {
     /*border: 1px solid black;*/
     width: 3in;
     background-color: lightgray;
     border-radius: 20px;
+}
+
+.div-github:hover {
+    transition: 0.5s;
+    box-shadow: 1px 0px 10px gray;
 }
 
 .div-twitter {
@@ -131,6 +144,11 @@
     margin-left: 10rem;
     background-color: lightskyblue;
     border-radius: 20px;
+}
+
+.div-twitter:hover {
+    transition: 0.5s;
+    box-shadow: 1px 0px 10px rgb(86, 199, 236);
 }
 
 ::-webkit-scrollbar {

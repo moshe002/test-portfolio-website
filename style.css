@@ -3,8 +3,8 @@
     justify-content: center;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: rgb(34,177,179);
-    background: linear-gradient(0deg, rgba(34,177,179,1) 0%, rgb(0, 0, 0)79%);    
+    background: rgb(158, 217, 218);
+    background: linear-gradient(0deg, rgba(34,177,179,1) 0%, rgb(209, 198, 198)79%);    
     background-repeat: no-repeat;
     height: 71vh;
 }
@@ -15,7 +15,7 @@
         opacity: 0%;
     }
     to {
-        color: antiquewhite;
+        color: black;
         font-size: 70px;
         opacity: 100%;
     }
@@ -39,7 +39,6 @@ h1 {
     animation-duration: 10s;
     animation-fill-mode: forwards;
 }
-
 
 button {
     margin-top: 5rem;

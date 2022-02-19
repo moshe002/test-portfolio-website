@@ -23,8 +23,8 @@
     height: auto;
     z-index: 1;
     position: fixed;
-    background-color: lightblue;
-    border-radius: 10px;
+    background-color: white;
+    border-radius: 4px;
 }
 
 .div-h1 h1{

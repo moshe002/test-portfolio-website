@@ -22,7 +22,7 @@ body {
 
 .skill-div {
     border: none;
-    width: 270px;
+    width: auto;
     margin-right: 10rem;
     font-size: 20px;
     background-color: lightblue;
@@ -31,7 +31,7 @@ body {
 
 .interest-div {
     border: none;
-    width: 270px;
+    width: auto;
     font-size: 20px;
     background-color: lightblue;
     border-radius: 20px;
@@ -39,7 +39,7 @@ body {
 
 .knowledge-div {
     border: none;
-    width: 270px;
+    width: auto;
     margin-left: 10rem;
     font-size: 20px;
     background-color: lightblue;
